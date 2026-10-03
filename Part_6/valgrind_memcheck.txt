@@ -1,0 +1,21 @@
+==415647== Memcheck, a memory error detector
+==415647== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==415647== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==415647== Command: ./graph_server 127.0.0.1 1234
+==415647== 
+Graph Magician started on port 1234
+type QUIT to shut down the server
+New client has been connected
+New client has been connected
+A client has disconnected
+A client has disconnected
+Exiting the server!
+==415647== 
+==415647== HEAP SUMMARY:
+==415647==     in use at exit: 0 bytes in 0 blocks
+==415647==   total heap usage: 373 allocs, 373 frees, 119,154 bytes allocated
+==415647== 
+==415647== All heap blocks were freed -- no leaks are possible
+==415647== 
+==415647== For lists of detected and suppressed errors, rerun with: -s
+==415647== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

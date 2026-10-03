@@ -1,0 +1,5 @@
+./random_graph -v 8 -e 12 -s 1 -u
+./random_graph -v 8 -e 12 -s 2 -d
+./random_graph -v 6 -e 5 -s 3 -u
+./random_graph -v 10 -e 4 -s 7 -d
+./random_graph -v 4 -e 6 -s 9 -u

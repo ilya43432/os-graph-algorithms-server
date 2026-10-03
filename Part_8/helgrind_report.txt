@@ -1,0 +1,21 @@
+==17896== Helgrind, a thread error detector
+==17896== Copyright (C) 2007-2017, and GNU GPL'd, by OpenWorks LLP et al.
+==17896== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==17896== Command: ./graph_server_test 127.0.0.1 1234
+==17896== 
+Graph Magician started on port 1234
+type QUIT to shut down the server
+New client has been connected
+New client has been connected
+New client has been connected
+client has disconnected.
+client has disconnected.
+New client has been connected
+client has disconnected.
+client has disconnected.
+shutting down the server.
+==17896== 
+==17896== Use --history-level=approx or =none to gain increased speed, at
+==17896== the cost of reduced accuracy of conflicting-access information
+==17896== For lists of detected and suppressed errors, rerun with: -s
+==17896== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 590 from 118)

@@ -1,0 +1,14 @@
+==27457== Callgrind, a call-graph generating cache profiler
+==27457== Copyright (C) 2002-2017, and GNU GPL'd, by Josef Weidendorfer et al.
+==27457== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==27457== Command: ./Euler_circle_algo -v 4 -e 4 -u
+==27457== 
+==27457== For interactive control, run 'callgrind_control -h'.
+Enter edges: 
+The format is - {source target weight}
+Euler Circle: 0 1 2 3 0 
+==27457== 
+==27457== Events    : Ir
+==27457== Collected : 3725342
+==27457== 
+==27457== I   refs:      3,725,342

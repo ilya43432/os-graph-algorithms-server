@@ -1,0 +1,100 @@
+==403705== Memcheck, a memory error detector
+==403705== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==403705== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==403705== Command: ./random_graph -v 8 -e 12 -s 1 -u
+==403705== 
+Your generated graph:
+Node: 0 neighbors: (7, w=18) (6, w=11) (4, w=20) 
+Node: 1 neighbors: (3, w=24) (7, w=18) (5, w=7) 
+Node: 2 neighbors: 
+Node: 3 neighbors: (1, w=24) (5, w=5) (4, w=23) (7, w=12) 
+Node: 4 neighbors: (3, w=23) (0, w=20) (7, w=19) 
+Node: 5 neighbors: (3, w=5) (7, w=3) (6, w=9) (1, w=7) 
+Node: 6 neighbors: (0, w=11) (5, w=9) 
+Node: 7 neighbors: (0, w=18) (5, w=3) (1, w=18) (4, w=19) (3, w=12) 
+
+No Eulerian cycle
+==403705== 
+==403705== HEAP SUMMARY:
+==403705==     in use at exit: 0 bytes in 0 blocks
+==403705==   total heap usage: 43 allocs, 43 frees, 93,514 bytes allocated
+==403705== 
+==403705== All heap blocks were freed -- no leaks are possible
+==403705== 
+==403705== For lists of detected and suppressed errors, rerun with: -s
+==403705== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==403720== Memcheck, a memory error detector
+==403720== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==403720== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==403720== Command: ./random_graph -v 8 -e 12 -s 2 -d
+==403720== 
+Your generated graph:
+Node: 0 neighbors: 
+Node: 1 neighbors: (->4, w=24) (->2, w=13) 
+Node: 2 neighbors: (->3, w=17) (->4, w=22) 
+Node: 3 neighbors: 
+Node: 4 neighbors: 
+Node: 5 neighbors: (->7, w=10) (->2, w=12) (->4, w=19) (->3, w=17) (->6, w=7) 
+Node: 6 neighbors: (->7, w=6) 
+Node: 7 neighbors: (->2, w=24) (->3, w=18) 
+
+No Eulerian cycle
+==403720== 
+==403720== HEAP SUMMARY:
+==403720==     in use at exit: 0 bytes in 0 blocks
+==403720==   total heap usage: 31 allocs, 31 frees, 93,218 bytes allocated
+==403720== 
+==403720== All heap blocks were freed -- no leaks are possible
+==403720== 
+==403720== For lists of detected and suppressed errors, rerun with: -s
+==403720== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==403727== Memcheck, a memory error detector
+==403727== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==403727== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==403727== Command: ./random_graph -v 6 -e 5 -s 3 -u
+==403727== 
+Your generated graph:
+Node: 0 neighbors: (3, w=3) 
+Node: 1 neighbors: (4, w=1) (5, w=2) 
+Node: 2 neighbors: 
+Node: 3 neighbors: (0, w=3) (5, w=15) 
+Node: 4 neighbors: (5, w=17) (1, w=1) 
+Node: 5 neighbors: (4, w=17) (3, w=15) (1, w=2) 
+
+No Eulerian cycle
+==403727== 
+==403727== HEAP SUMMARY:
+==403727==     in use at exit: 0 bytes in 0 blocks
+==403727==   total heap usage: 31 allocs, 31 frees, 92,906 bytes allocated
+==403727== 
+==403727== All heap blocks were freed -- no leaks are possible
+==403727== 
+==403727== For lists of detected and suppressed errors, rerun with: -s
+==403727== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==403740== Memcheck, a memory error detector
+==403740== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==403740== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==403740== Command: ./random_graph -v 10 -e 4 -s 7 -d
+==403740== 
+Your generated graph:
+Node: 0 neighbors: 
+Node: 1 neighbors: 
+Node: 2 neighbors: 
+Node: 3 neighbors: (->1, w=1) 
+Node: 4 neighbors: 
+Node: 5 neighbors: (->3, w=20) (->1, w=17) 
+Node: 6 neighbors: 
+Node: 7 neighbors: (->2, w=13) 
+Node: 8 neighbors: 
+Node: 9 neighbors: 
+
+No Eulerian cycle
+==403740== 
+==403740== HEAP SUMMARY:
+==403740==     in use at exit: 0 bytes in 0 blocks
+==403740==   total heap usage: 25 allocs, 25 frees, 94,146 bytes allocated
+==403740== 
+==403740== All heap blocks were freed -- no leaks are possible
+==403740== 
+==403740== For lists of detected and suppressed errors, rerun with: -s
+==403740== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

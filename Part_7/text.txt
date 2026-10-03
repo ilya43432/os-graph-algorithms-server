@@ -1,0 +1,176 @@
+EDGES 2
+
+EULER
+
+Newgraph 3 U
+EDGES 2
+0,1,1
+1,2,1
+0,1,1
+
+Newgraph 4 D
+EDGES 3
+0,1,1
+1,2,1
+2,3,1
+EULER
+
+Newgraph
+Newgraph X U
+Newgraph 3 X
+
+Newgraph 4 U
+EDGES two
+EDGES -1
+EDGES 1
+a,b,5
+
+Newgraph 4 U
+EDGES 4
+0,0,5
+0,1,100
+0,9,3
+0,1,1
+0,1,1
+
+Newgraph 4 U
+EDGES 2
+0,1,1
+2,3,1
+EULER
+
+YO
+
+Newgraph 0 U
+EULER
+
+Newgraph 1 U
+EULER
+
+Newgraph 3 U
+EDGES 2
+0,5,1
+2,2,1
+
+Newgraph 3 D
+EDGES 1
+-1,2,3
+
+Newgraph 3 U
+EDGES 2
+0,1,1
+0,1,1
+
+Newgraph 4 U
+EDGES 6
+0,1,1
+1,2,2
+2,3,3
+3,0,4
+0,2,5
+1,3,6
+EULER
+
+Newgraph 4 U
+EDGES 3
+0,1,3
+1,2,2
+2,3,4
+MSTW
+
+Newgraph 3 D
+MSTW
+
+Newgraph 4 U
+EDGES 3
+1,2,1
+1,2,1
+0,2,1
+SCC
+
+Newgraph 3 U
+EDGES 3
+0,1,1
+1,2,1
+0,2,1
+CLIQUE
+
+Newgraph 4 U
+EDGES 4
+0,1,1
+1,2,1
+2,3,1
+3,0,1
+HAM
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+EULER
+HAM
+
+Newgraph 4 U
+EDGES 3
+0,1,1
+1,2,1
+2,3,1
+HAM
+
+Newgraph 4 U
+EDGES 4
+0,1,1
+1,2,1
+2,3,1
+3,0,1
+HAM
+
+Newgraph 3 U
+EDGES 3
+0,1,5
+1,2,2
+0,2,1
+MSTW
+
+Newgraph 4 U
+EDGES 4
+0,1,2
+1,2,2
+2,3,2
+3,0,2
+MSTW
+
+Newgraph 4 U
+EDGES 2
+0,1,1
+2,3,1
+MSTW
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+SCC
+
+Newgraph 3 U
+EDGES 3
+0,1,1
+1,2,1
+0,2,1
+CLIQUE
+
+Newgraph 4 U
+EDGES 3
+0,1,1
+1,2,1
+2,3,1
+CLIQUE
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+CLIQUE

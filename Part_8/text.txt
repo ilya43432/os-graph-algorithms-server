@@ -1,0 +1,166 @@
+Newgraph 3 U
+EDGES 2
+0,1,1
+1,2,1
+
+Newgraph 4 D
+EDGES 3
+0,1,1
+1,2,1
+2,3,1
+
+Newgraph 4 U
+EDGES 2
+0,1,1
+2,3,1
+
+Newgraph 4 U
+EDGES 4
+0,1,1
+1,2,1
+2,3,1
+3,0,1
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+
+RandomGraph 5 4 13 U
+RandomGraph 6 4 21 D
+
+Newgraph X U 
+
+Newgraph 2 D
+EDGES -1
+EDGES 3
+EDGES 1
+1,1,1
+0,1,2
+
+Newgraph 4 U
+EDGES 4
+0,1,1
+1,2,1
+2,3,1
+3,0,1
+
+Newgraph 3 U
+EDGES 3
+0,1,5
+1,2,2
+0,2,1
+
+Newgraph 4 U
+EDGES 4
+0,1,2
+1,2,2
+2,3,2
+3,0,2
+
+RandomGraph 20 2 21 D
+
+RandomGraph 2 0 12 U
+
+Newgraph -2 D
+
+Newgraph 2 X
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+
+Newgraph 4 U
+EDGES 3
+0,1,3
+1,2,2
+2,3,4
+
+Newgraph 3 U
+EDGES 3
+0,1,1
+1,2,1
+0,2,1
+
+Newgraph 4 U
+EDGES 4
+0,1,1
+1,2,1
+2,3,1
+3,0,1
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+
+Newgraph 4 U
+EDGES 3
+0,1,1
+1,2,1
+2,3,1
+
+Newgraph 4 U
+EDGES 4
+0,1,1
+1,2,1
+2,3,1
+3,0,1
+
+Newgraph 3 U
+EDGES 3
+0,1,5
+1,2,2
+0,2,1
+
+Newgraph 4 U
+EDGES 4
+0,1,2
+1,2,2
+2,3,2
+3,0,2
+
+Newgraph 4 U
+EDGES 2
+0,1,1
+2,3,1
+
+Newgraph 3 U
+EDGES 3
+0,1,1
+1,2,1
+0,2,1
+
+Newgraph 4 U
+EDGES 3
+0,1,1
+1,2,1
+2,3,1
+
+Newgraph 3 D
+EDGES 3
+0,1,1
+1,2,1
+2,0,1
+
+Newgraph
+
+Newgraph -2 D
+
+Newgraph 0 D
+
+ilya
+
+RandomGraph 100 2 345 D
+
+RandomGraph 2 -2 32 U
